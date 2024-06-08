@@ -16,7 +16,7 @@ public sealed class JsonLogTarget : TargetWithLayout
 	public JsonLogTarget()
 	{
 		var timestamp = DateTime.Now.ToString("yyyyMMddHHmmssffff");
-		_fileName = $"log-${timestamp}.json";
+		_fileName = $"log-{timestamp}.json";
 	}
 
 	protected override void InitializeTarget()
