@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Main;
+using NLog;
+
+LogInitializer.Initialize();
+
+var logger = LogManager.GetCurrentClassLogger();
+logger.Info("hoge");
+logger.Info("moge");
+logger.Info("piyo");

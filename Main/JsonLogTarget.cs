@@ -1,10 +1,8 @@
 ﻿using NLog;
-using NLog.Common;
 using NLog.Config;
 using NLog.Targets;
 
-namespace Logger;
-
+namespace Main;
 [Target("CustomJson")]
 public sealed class JsonLogTarget : TargetWithLayout
 {
