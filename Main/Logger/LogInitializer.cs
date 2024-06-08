@@ -1,6 +1,6 @@
 ﻿using NLog;
 
-namespace Main;
+namespace Main.Logger;
 public class LogInitializer
 {
 	public static void Initialize()

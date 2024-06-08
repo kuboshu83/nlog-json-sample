@@ -2,7 +2,7 @@
 using NLog.Config;
 using NLog.Targets;
 
-namespace Main;
+namespace Main.Logger;
 [Target("CustomJson")]
 public sealed class JsonLogTarget : TargetWithLayout
 {

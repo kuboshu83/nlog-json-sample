@@ -1,4 +1,4 @@
-﻿using Main;
+﻿using Main.Logger;
 using NLog;
 
 // アプリケーション起動時のオプションで設定する
